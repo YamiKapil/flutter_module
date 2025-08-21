@@ -73,8 +73,13 @@ class _MyAppState extends State<MyApp> {
         scaffoldBackgroundColor: config.backgroundColor,
         colorScheme: ColorScheme.fromSeed(
           seedColor: config.primaryColor,
-          brightness: Brightness.light,
           surface: config.backgroundColor,
+        ),
+        buttonTheme: ButtonThemeData(
+          colorScheme: ColorScheme.fromSeed(
+            seedColor: config.primaryColor,
+            surface: config.backgroundColor,
+          ),
         ),
         // appBarTheme: AppBarTheme(
         //   backgroundColor: config.backgroundColor,
@@ -107,8 +112,13 @@ class _MyAppState extends State<MyApp> {
         scaffoldBackgroundColor: config.backgroundColor,
         colorScheme: ColorScheme.fromSeed(
           seedColor: config.primaryColor,
-          brightness: Brightness.dark,
           surface: config.backgroundColor,
+        ),
+        buttonTheme: ButtonThemeData(
+          colorScheme: ColorScheme.fromSeed(
+            seedColor: config.primaryColor,
+            surface: config.backgroundColor,
+          ),
         ),
         // appBarTheme: AppBarTheme(
         //   backgroundColor: config.backgroundColor,
